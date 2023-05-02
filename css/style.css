@@ -1,0 +1,47 @@
+/* online Font connectivity */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-weight: 400;
+    font-weight: 500;
+    font-weight: 600;
+    font-weight: 700; */
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    /* background: pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    /* border-bottom: 2px solid #fff; */
+}
+
+.logo1 a,
+.bar a{
+    text-decoration: none;
+    color: #000;
+}
+
+.section{
+    background: url(../image/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}

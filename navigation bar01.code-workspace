@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../navigation bar01"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../weblayout1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pro1"
+	}
+}
